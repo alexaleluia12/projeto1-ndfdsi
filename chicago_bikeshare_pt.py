@@ -159,11 +159,11 @@ def most_popular_gender(data_list: list) -> str:
 
     answer = ""
     if male_count == female_count:
-        answer = "Iqual"
+        answer = "Igual"
     elif male_count > female_count:
-        answer = "Male"
+        answer = "Masculino"
     else:
-        answer = "Female"
+        answer = "Feminino"
     
     return answer
 
@@ -173,7 +173,7 @@ print("O gênero mais popular na lista é: ", most_popular_gender(data_list))
 
 # ------------ NÃO MUDE NENHUM CÓDIGO AQUI ------------
 assert type(most_popular_gender(data_list)) is str, "TAREFA 6: Tipo incorreto no retorno. Deveria retornar uma string."
-assert most_popular_gender(data_list) == "Male", "TAREFA 6: Resultado de retorno incorreto!"
+assert most_popular_gender(data_list) == "Masculino", "TAREFA 6: Resultado de retorno incorreto!"
 # -----------------------------------------------------
 
 # Se tudo está rodando como esperado, verifique este gráfico!
